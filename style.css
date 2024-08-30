@@ -1,5 +1,50 @@
+html{
+    font-family: system-ui;
+    max-width: 75%;
+    margin: 0 auto 5em auto; /* haut | droite | bas | gauche */
+    padding: 5px;
+    background-color: rgb(75, 74, 74);
+    color:  white;
+}
+
+h1,h2,h3{
+    color: rgb(108, 200, 231);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-shadow: rgb(15, 200, 247) 1px 0 15px;
+    color: lightgray;
+}
+
+nav{
+    background-color: rgb(59, 59, 59);
+    margin: 0 auto 1em auto; /* haut | droite | bas | gauche */
+    padding: 20px;
+    border: solid 10px ;
+    border-radius: 40px;
+    border-color: rgb(108, 200, 231);
+}
+
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+nav > h1{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 0;
+}
+
 #photoProfil{
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 25%;
+    max-height: 25%;
     border-radius: 15%;
 }
