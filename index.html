@@ -10,7 +10,7 @@
         <nav>
             <h1>Menu</h1>
             <ul>
-                <li><a href="index.html">Accueil</a> </li>
+                <li><a id ="actif" href="index.html">Accueil</a> </li>
                 <li><a href="apropos.html">A propos</a></li>
                 <li><a href="competences.html">Compétences</a></li>
                 <li><a href="projets.html">Projets</a></li>
@@ -19,20 +19,25 @@
         </nav>
 
         <main>
-            <h1>Bienvenue sur mon Portfolio</h1>
-            <p>Je suis Anthony Gass, étudiant en 3ème année de Licence informatique, parcours Miage (Méthodes de l'informatique Appliquées à la Gestion des Entrprises).<BR> 
-                Apprenez en plus sur moi dans ce Portfolio!</p>
             
-            <img id="photoProfil" src="profil.jpg" alt="Une photo de Anthony Gass"\>
-            
-            <section id="coord">
-                <h2>Coordonnées</h2>
-                <ul>
-                    <li> <Strong>Email :</Strong> <a href ="mailto:gass.anthony@gmail.com">gass.anthony@gmail.com</a> </li>
-                    <li> <Strong>Téléphone : </Strong> +687 52.23.19 </li>
-                    <li> <Strong>GitHub : </Strong> <a href="https://github.com/gass-an"> github.com/gass-an </a> </li>
-                </ul>
-            </section>
+            <div id="photoProfilDiv">
+                <img id="photoProfil" src="profil.jpg" alt="Une photo de Anthony Gass"\>
+                <div>    
+                    <section id="bienvenue">  
+                        <h1>Bienvenue sur mon Portfolio</h1>
+                        <p class="textAccueil">Je suis Anthony Gass, étudiant en 3ème année de Licence informatique, parcours Miage (Méthodes de l'informatique Appliquées à la Gestion des Entrprises).<BR> 
+                            Apprenez en plus sur moi dans ce Portfolio!</p>
+                    </section>
+                    <section id="coord">
+                        <h2>Coordonnées</h2>
+                        <ul class="textAccueil">
+                            <li> <Strong>Email :</Strong> <a href ="mailto:gass.anthony@gmail.com">gass.anthony@gmail.com</a> </li>
+                            <li> <Strong>Téléphone : </Strong> +687 52.23.19 </li>
+                            <li> <Strong>GitHub : </Strong> <a href="https://github.com/gass-an"> github.com/gass-an </a> </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
             
         </main>
         <footer>© Anthony Gass, 2024</footer>
