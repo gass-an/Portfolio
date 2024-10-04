@@ -78,7 +78,13 @@ footer{
     text-align: justify;
 }
 
-
+.cv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
 /* A Propos */
 
 #mainAPropos{
@@ -104,7 +110,7 @@ hr{
     text-align: justify;
 }
 
-.etudes, .perso{
+.etudes, .perso, .travail{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -135,13 +141,48 @@ th,td{
 
 /* Resultats */
 
+#listeLicences{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 16em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#Maths, #Miage{
+    border: solid 1px;
+    border-color: rgb(108, 200, 231);
+    border-radius: 40px;
+    padding: 0 1em 1em 1em;
+    margin: 1em;
+    background-color: rgb(90, 90, 90);
+    flex: 1;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 105%;
+}
+
 .resultats{
     text-decoration: underline;
 }
 
 .resultatsList{
     list-style-type: none;
+    padding: 0;
 }
+
+.ResSemestre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
 
 /* Contact */
 
