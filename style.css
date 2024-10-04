@@ -132,6 +132,49 @@ th,td{
     flex-direction: column;
 }
 
+
+/* Resultats */
+
+.resultats{
+    text-decoration: underline;
+}
+
+.resultatsList{
+    list-style-type: none;
+}
+
+/* Contact */
+
+.sectionContact{
+    margin: 0 5rem 0 5rem;
+}
+
+input{
+    padding : 0.2rem;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(108, 200, 231);
+}
+
+textarea{
+    letter-spacing: 1px;
+    line-height: 0px;
+    border-radius: 5px;
+    border: 2px solid rgb(108, 200, 231);
+    max-width: 100%;
+    width: 100%;
+    height: 4rem;
+    line-height: 1.5;
+}
+
+#submit{
+    
+    max-width: 15%;
+    width: 100%; 
+}
+
+
 /* Responsive */
 
 @media (max-width : 1300px) and (min-width: 300px) {
