@@ -125,6 +125,7 @@ hr{
 
 table{ 
     margin: 1em;
+    border-collapse: collapse;
 }
 th,td{
     border: solid 2px;
